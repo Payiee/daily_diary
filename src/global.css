@@ -1,0 +1,15 @@
+:root {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji';
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+}
+
+/* Calm focus ring for keyboard users on web */
+:focus-visible {
+  outline: 2px solid #6f8f7a;
+  outline-offset: 2px;
+}
+textarea,
+input {
+  outline: none;
+}
