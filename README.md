@@ -11,6 +11,20 @@ A calm, minimalist daily diary for **iOS, Android and the web**, built with Expo
 - **Your diary**: Event / Diary toggle, sort newest or oldest, search, grouped by month
 - **Profile**: your name, Auto / Light / Dark appearance, clear data
 
+## Why I made this
+
+I made Daily Diary for myself.
+
+Years ago, my psychiatrist gave me one piece of advice: keep a daily diary. At the time I didn't trust her, so I
+never did it, and eventually I stopped seeing her.
+
+It took me years to understand why she suggested it. Some days I don't understand myself, and some days I can't.
+A diary gives me something to look back on: what I felt, what happened, and what I was thinking. Over time, it helps
+me see my own patterns and assess how I'm really doing, especially on the days I can't do that in the moment.
+
+So this app is my way of finally taking that advice. If you've ever struggled to understand yourself, maybe it can
+help you too.
+
 Everything is stored on the device (AsyncStorage). The AI features read your diary so their advice and summaries are
 about you: the **Daily companion** and **Ask** send your last 7 days of entries (titles, text and moods) plus your first
 name and question; **Reflection** sends the entries of the period you're viewing. Nothing else leaves the device.
